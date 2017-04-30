@@ -1,24 +1,41 @@
-.App {
-  text-align: center;
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+/*Body*/
+
+.body {
+    font-family: 'Crimson Text', serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+/*Text*/
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+.bodyText {
+  flex: 1;
   padding: 20px;
-  color: white;
 }
 
-.App-intro {
-  font-size: large;
+/*Footer*/
+
+.mediaIcon {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.mediaIcon img{
+  margin: 10px 25px auto;
+  height: 70px;
 }
+
+.mediaIcon figcaption {
+  color: #262626;
+}
+
+.footer {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+
+
